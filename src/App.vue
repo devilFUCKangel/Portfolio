@@ -33,6 +33,7 @@
 import HelloWorld from "./components/HelloWorld";
 import Card from "./components/Card";
 import Basic from "./components/Basic";
+import BigFive from "./components/BigFive";
 
 export default {
   name: "App",
@@ -50,7 +51,7 @@ export default {
         subtitle: "about me sub",
         tabs: [
           { title: "Basic", content: Basic },
-          { title: "Big Five", content: Basic }
+          { title: "Big Five", content: BigFive }
         ]
       },
       { title: "Education & Career", subtitle: "about me sub" },
