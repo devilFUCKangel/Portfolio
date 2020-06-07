@@ -18,7 +18,6 @@
       </b-collapse>
     </b-navbar>
     <v-content>
-
       <HelloWorld />
       <v-window v-model="tabVmodel" class="elevation-24" align="center" show-arrows>
         <v-window-item v-for="(cardContent,n) in mainContents" :key="n">
@@ -34,33 +33,39 @@ import HelloWorld from "./components/HelloWorld";
 import Card from "./components/Card";
 import Basic from "./components/Basic";
 import BigFive from "./components/BigFive";
+import Education from "./components/Education";
 
 export default {
   name: "App",
 
   components: {
     HelloWorld,
-    Card,
+    Card
   },
-
 
   data: () => ({
     mainContents: [
       {
         title: "About Me & SNS",
-        subtitle: "about me sub",
+        subtitle: "People around me said I am a weird person, got a lot of weird idea, and cute...And because of this weird way of thinking, made me hard to communicate with others.",
         tabs: [
           { title: "Basic", content: Basic },
           { title: "Big Five", content: BigFive }
         ]
       },
-      { title: "Education & Career", subtitle: "about me sub" },
-      { title: "Contact & Comments", subtitle: "about me sub" },
+      {
+        title: "Education & Career",
+        subtitle: "about me sub",
+        tabs: [
+          { title: "Education", content: Education },
+        ]
+      },
       { title: "Skill & Project", subtitle: "about me sub" },
+      { title: "Contact & Comments", subtitle: "about me sub" },
       { title: "Blog & Other", subtitle: "about me sub" }
     ],
     tabVmodel: 0,
-    swipeDirection: 'None',
-  }),
+    swipeDirection: "None"
+  })
 };
 </script>

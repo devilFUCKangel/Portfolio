@@ -9,11 +9,71 @@
     <v-divider></v-divider>
     <v-list dense>
       <v-subheader>"The theory identifies five factors:</v-subheader>
-      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled><a style="color:red">O</a><b-icon class="ma-1" icon="circle-fill" variant="primary" font-scale="0.3" animation="cylon"></b-icon><a style="color:rgba(255,255,255,0.5)">openness to experience (inventive/curious vs. consistent/cautious)</a></v-list-item>
-      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled><a style="color:red">C</a><b-icon class="ma-1" icon="circle-fill" variant="primary" font-scale="0.3" animation="cylon"></b-icon><a style="color:rgba(255,255,255,0.5)">conscientiousness (efficient/organized vs. extravagant/careless)</a></v-list-item>
-      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled><a style="color:red">E</a><b-icon class="ma-1" icon="circle-fill" variant="primary" font-scale="0.3" animation="cylon"></b-icon><a style="color:rgba(255,255,255,0.5)">extraversion (outgoing/energetic vs. solitary/reserved)</a></v-list-item>
-      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled><a style="color:red">A</a><b-icon class="ma-1" icon="circle-fill" variant="primary" font-scale="0.3" animation="cylon"></b-icon><a style="color:rgba(255,255,255,0.5)">agreeableness (friendly/compassionate vs. challenging/callous)</a></v-list-item>
-      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled><a style="color:red">N</a><b-icon class="ma-1" icon="circle-fill" variant="primary" font-scale="0.3" animation="cylon"></b-icon><a style="color:rgba(255,255,255,0.5)">neuroticism (sensitive/nervous vs. resilient/confident)</a></v-list-item>
+      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled>
+        <a style="color:red">O</a>
+        <b-icon
+          class="ma-1"
+          icon="circle-fill"
+          variant="primary"
+          font-scale="0.3"
+          animation="cylon"
+        ></b-icon>
+        <a
+          style="color:rgba(255,255,255,0.5)"
+        >openness to experience (inventive/curious vs. consistent/cautious)</a>
+      </v-list-item>
+      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled>
+        <a style="color:red">C</a>
+        <b-icon
+          class="ma-1"
+          icon="circle-fill"
+          variant="primary"
+          font-scale="0.3"
+          animation="cylon"
+        ></b-icon>
+        <a
+          style="color:rgba(255,255,255,0.5)"
+        >conscientiousness (efficient/organized vs. extravagant/careless)</a>
+      </v-list-item>
+      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled>
+        <a style="color:red">E</a>
+        <b-icon
+          class="ma-1"
+          icon="circle-fill"
+          variant="primary"
+          font-scale="0.3"
+          animation="cylon"
+        ></b-icon>
+        <a
+          style="color:rgba(255,255,255,0.5)"
+        >extraversion (outgoing/energetic vs. solitary/reserved)</a>
+      </v-list-item>
+      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled>
+        <a style="color:red">A</a>
+        <b-icon
+          class="ma-1"
+          icon="circle-fill"
+          variant="primary"
+          font-scale="0.3"
+          animation="cylon"
+        ></b-icon>
+        <a
+          style="color:rgba(255,255,255,0.5)"
+        >agreeableness (friendly/compassionate vs. challenging/callous)</a>
+      </v-list-item>
+      <v-list-item class="v-btn--outlined" color="rgba(0,0,0,0.5)" disabled>
+        <a style="color:red">N</a>
+        <b-icon
+          class="ma-1"
+          icon="circle-fill"
+          variant="primary"
+          font-scale="0.3"
+          animation="cylon"
+        ></b-icon>
+        <a
+          style="color:rgba(255,255,255,0.5)"
+        >neuroticism (sensitive/nervous vs. resilient/confident)</a>
+      </v-list-item>
     </v-list>
     <v-divider></v-divider>
     <b-card-sub-title>
@@ -29,10 +89,10 @@
       <a
         href="https://openpsychometrics.org/tests/IPIP-BFFM/results.php?r=2.7,4.2,3.9,4,4.1"
       >openpsychometrics.org</a>
-      .
+      . Click on the hyperlinks for more details of the results. To conclude that, I am friendly, like to learn new things, organized, a bit shy, and steady person.
     </b-card-sub-title>
     <Plotly :data="aveRadarRForRadarSummary" :layout="big5layout"></Plotly>
-    <b-card-sub-title>Below results are taken from each website, remind that openpsychometrics.org using term Emotional stability instead of Neuroticism. The score of Neuroticism is calculated with 100% - score of Emotional stability.</b-card-sub-title>
+    <b-card-sub-title>The next chart show results taken from each website, remind that openpsychometrics.org using term Emotional stability instead of Neuroticism. The score of Neuroticism is calculated with 100% - score of Emotional stability.</b-card-sub-title>
     <Plotly :data="big5data" :layout="big5layout"></Plotly>
   </v-card>
 </template>
@@ -89,8 +149,8 @@ export default {
       paper_bgcolor: "rgba(0,0,0,0)",
       showlegend: true,
       font: { color: "white" },
-      legend: { x:0 ,y: 0 },
-      margin: { l:30, r:30, t:30, b:30}
+      legend: { x: 0, y: 0 },
+      margin: { l: 30, r: 30, t: 30, b: 30 }
     }
   }),
   computed: {
