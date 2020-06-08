@@ -34,6 +34,7 @@ import Card from "./components/Card";
 import Basic from "./components/Basic";
 import BigFive from "./components/BigFive";
 import Education from "./components/Education";
+import Career from "./components/Career";
 
 export default {
   name: "App",
@@ -47,7 +48,8 @@ export default {
     mainContents: [
       {
         title: "About Me & SNS",
-        subtitle: "People around me said I am a weird person, got a lot of weird idea, and cute...And because of this weird way of thinking, made me hard to communicate with others.",
+        subtitle:
+          "People around me said I am a weird person, got a lot of weird idea, and cute...And I afraid to change people's minds, maybe this weird way of thinking cause me hard to communicate with others. A listener, but not always. Hard to maintain a relationship through long-distance because I didn't like texting.",
         tabs: [
           { title: "Basic", content: Basic },
           { title: "Big Five", content: BigFive }
@@ -55,9 +57,11 @@ export default {
       },
       {
         title: "Education & Career",
-        subtitle: "about me sub",
+        subtitle:
+          "Now I am unemployed after finish internship in March 2020. In internship period, I work as data scientist and full-stack developer in TopGlove, dealing with CCTV and image processing project.",
         tabs: [
           { title: "Education", content: Education },
+          { title: "Career", content: Career }
         ]
       },
       { title: "Skill & Project", subtitle: "about me sub" },

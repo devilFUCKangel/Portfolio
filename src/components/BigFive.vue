@@ -113,28 +113,28 @@ export default {
         r: [90, 95, 78, 94, 53],
         theta: ["O", "C", "E", "A", "N"],
         fill: "toself",
-        name: "Bigfive-test"
+        name: "Bigfive-test",
       },
       {
         type: "scatterpolar",
         r: [90, 69, 33, 81, 31],
         theta: ["O", "C", "E", "A", "N"],
         fill: "toself",
-        name: "Truity"
+        name: "Truity",
       },
       {
         type: "scatterpolar",
         r: [69, 76, 42, 67, 13],
         theta: ["O", "C", "E", "A", "N"],
         fill: "toself",
-        name: "123test"
+        name: "123test",
       },
       {
         type: "scatterpolar",
         r: [65, 80, 37, 56, 100 - 93],
         theta: ["O", "C", "E", "A", "N"],
         fill: "toself",
-        name: "Open Source Psychometrics Project"
+        name: "Open Source Psychometrics Project",
       }
     ],
     big5layout: {
@@ -143,14 +143,14 @@ export default {
           visible: true,
           range: [0, 100]
         },
-        bgcolor: "rgba(0,0,0,0)"
+        bgcolor: "rgba(0,0,0,0)",
       },
       plot_bgcolor: "rgba(0,0,0,0)",
       paper_bgcolor: "rgba(0,0,0,0)",
       showlegend: true,
       font: { color: "white" },
       legend: { x: 0, y: 0 },
-      margin: { l: 30, r: 30, t: 30, b: 30 }
+      margin: { l: 30, r: 30, t: 30, b: 30 },
     }
   }),
   computed: {
@@ -171,7 +171,7 @@ export default {
           r: avearr,
           theta: ["O", "C", "E", "A", "N"],
           fill: "toself",
-          name: "Score Average"
+          name: "Score Average",
         }
       ];
     }
