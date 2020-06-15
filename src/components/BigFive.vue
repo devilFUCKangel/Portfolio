@@ -164,7 +164,6 @@ export default {
           ) / this.big5data.length
         );
       }
-
       return [
         {
           type: "scatterpolar",

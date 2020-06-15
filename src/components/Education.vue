@@ -2,45 +2,24 @@
   <v-container fluid>
     <v-row dense>
       <v-col cols="12" v-for="(edu,i) in textFieldData" :key="i">
-        <v-card>
-          <v-img
-            :src="edu.imgsrc"
-            class="white--text align-end"
-            gradient="to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)"
-            :height="edu.detail.length*(56+7*4)+16+120"
-          >
-            <v-card-title>{{edu.eduLevel}}</v-card-title>
-            <v-card-text>
-              <template v-for="(detailData,j) in edu.detail">
-                <v-textarea
-                  hide-details
-                  filled
-                  readonly
-                  dense
-                  row-height="6"
-                  rows="1"
-                  auto-grow
-                  :key="j"
-                  :label="detailData.label"
-                  :value="detailData.value"
-                ></v-textarea>
-              </template>
-            </v-card-text>
-          </v-img>
-        </v-card>
+        <CardListTextArea :cardContent="edu" />
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
+import CardListTextArea from "./CardListTextArea"; 
+
 export default {
   name: "Education",
+
+  components:{CardListTextArea},
 
   data: () => ({
     textFieldData: [
       {
-        eduLevel: "Degree",
+        title: "Degree",
         imgsrc:
           "https://www.utem.edu.my/images/2020/pages/imageWelcomeUTeM.jpg",
         detail: [
@@ -55,7 +34,7 @@ export default {
           },
           {
             value:
-              "Study Bachelor of Computer Science (Artificial Intelligence), CGPA 3.67",
+              "Study Bachelor of Computer Science (Artificial Intelligence), CGPA 3.69",
             label: "Course"
           },
           {
@@ -66,7 +45,7 @@ export default {
         ]
       },
       {
-        eduLevel: "Postsecondary (pre-university)",
+        title: "Postsecondary (pre-university)",
         imgsrc:
           "https://fastly.4sqi.net/img/general/width960/7303610_opXm6TkQdEhforn4d0smqlHZMx8ell1mhdQLVyC2cbw.jpg",
         detail: [
@@ -89,7 +68,7 @@ export default {
         ]
       },
       {
-        eduLevel: "Secondary",
+        title: "Secondary",
         imgsrc:
           "http://2.bp.blogspot.com/_sN-poQ4oF0w/THd5KJc0H1I/AAAAAAAAAFY/PjgIsFm5QXk/s1600/CIMG1233.JPG",
         detail: [
