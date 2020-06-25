@@ -80,6 +80,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - pages update 3min, very slow (test6 commit)
     - nice domain name
 
-10. Python Anywhere
+10. [Render](https://devilfuckangel.onrender.com/)
+    - github push and deploy
+    - easy web interface to manage and deploy
+    - other function such as database (haven't test)
+    - nice domain name
+    - the best
+
+11. Python Anywhere
     - fail to host with npm through bash command
     - need use python as backend (haven't test)
