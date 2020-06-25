@@ -74,6 +74,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - lack UI and web to manage
     - nice domain name
 
-9. Python Anywhere
+9. [GitLab Pages](...)
+    - upload and deploy
+    - similar but easier than Github Pages
+    - nice domain name
+
+10. Python Anywhere
     - fail to host with npm through bash command
     - need use python as backend (haven't test)
