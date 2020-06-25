@@ -60,6 +60,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - other choices, push github and deploy, and container registry
     - easy web interfaces to manage and deploy with github
     - many setting, such as build pack
+    - nice domain name
 
 7. [Github Pages](https://devilfuckangel.github.io/Portfolio/)
     - easy to deploy for simple page
