@@ -87,6 +87,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - nice domain name
     - the best
 
-11. Python Anywhere
+11. [Bitbucket Cloud](https://devilfuckangel.onrender.com/)
+    - git control similar to Github and GitLab
+    - upload and deploy, similar to Github Pages
+    - fail to deploy, seems like no node env
+    - anyone teach me?
+
+12. Python Anywhere
     - fail to host with npm through bash command
     - need use python as backend (haven't test)
