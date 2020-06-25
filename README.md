@@ -93,7 +93,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - fail to deploy, seems like no node env
     - anyone teach me?
 
-12. [Vercel](https://portfolio-git-master.devilfuckangel.vercel.app/),[2](https://portfolio.devilfuckangel.vercel.app/),[Custom](https://devilfuckangel.vercel.app/)
+12. [Vercel](https://portfolio-git-master.devilfuckangel.vercel.app/),[Master/Production](https://portfolio.devilfuckangel.vercel.app/),[Custom](https://devilfuckangel.vercel.app/)
     - github push and deploy
     - easy web interface to manage and deploy
     - auto deploy, and many more integration
