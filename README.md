@@ -83,6 +83,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 10. [Render](https://devilfuckangel.onrender.com/)
     - github push and deploy
     - easy web interface to manage and deploy
+    - auto deploy
     - other function such as database (haven't test)
     - nice domain name
     - the best
@@ -92,6 +93,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - upload and deploy, similar to Github Pages
     - fail to deploy, seems like no node env
     - anyone teach me?
+
+12. [Vercel](https://portfolio-git-master.devilfuckangel.vercel.app/),[2](https://portfolio.devilfuckangel.vercel.app/),[3](https://portfolio-rosy-chi.vercel.app/)
+    - github push and deploy
+    - easy web interface to manage and deploy
+    - auto deploy, and many more integration
+    - debug clearly
+    - nice domain name
+    - the best after Render
 
 12. Python Anywhere
     - fail to host with npm through bash command
