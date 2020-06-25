@@ -98,7 +98,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - github push and deploy
     - easy web interface to manage and deploy
     - auto deploy, and many more integration
-    - debug clearly
+    - debug clearly, separated domain for different branch and Deployment or Production
     - nice domain name
     - the best after Render
 

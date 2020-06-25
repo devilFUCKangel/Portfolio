@@ -1,7 +1,7 @@
 <template id="top">
   <v-app>
     <b-navbar class="red darken-4" sticky toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#top"> Wei Lun</b-navbar-brand>
+      <b-navbar-brand href="#top">  Lun</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <v-item-group class="shrink" v-model="tabVmodel" mandatory tag="v-flex">
