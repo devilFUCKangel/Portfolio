@@ -87,6 +87,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - nice domain name
     - the best
 
-11. Python Anywhere
+11. [Bitbucket Cloud](https://devilfuckangel.onrender.com/)
+    - ...
+
+12. Python Anywhere
     - fail to host with npm through bash command
     - need use python as backend (haven't test)
