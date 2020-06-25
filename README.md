@@ -77,6 +77,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 9. [GitLab Pages](https://devilfuckangel.gitlab.io/Portfolio/)
     - upload and deploy
     - similar but easier than Github Pages
+    - pages update 3min, very slow (test6 commit)
     - nice domain name
 
 10. Python Anywhere
