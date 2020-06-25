@@ -93,6 +93,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     - fail to deploy, seems like no node env
     - anyone teach me?
 
-12. Python Anywhere
+12. [Vercel](https://portfolio-git-master.devilfuckangel.vercel.app/),[2](https://portfolio.devilfuckangel.vercel.app/),[Custom](https://devilfuckangel.vercel.app/)
+    - github push and deploy
+    - easy web interface to manage and deploy
+    - auto deploy, and many more integration
+    - debug clearly, separated domain for different branch and Deployment or Production
+    - nice domain name
+    - the best after Render
+
+13. Python Anywhere
     - fail to host with npm through bash command
     - need use python as backend (haven't test)
