@@ -15,7 +15,7 @@
               </template>
             </v-list-item-group>
           </v-list>
-        </v-card>
+      </v-card>
   </v-container>
 </template>
 

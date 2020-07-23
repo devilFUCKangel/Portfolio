@@ -36,7 +36,9 @@ import BigFive from "./components/BigFive";
 import Education from "./components/Education";
 import Career from "./components/Career";
 import UTeM from "./components/UTeM";
+import Coursera from "./components/Coursera";
 import Skill from "./components/Skill";
+import Assignment from "./components/Assignment";
 import Project from "./components/Project";
 
 export default {
@@ -64,20 +66,22 @@ export default {
           "Now I am unemployed after finish internship in March 2020. In internship period, I work as data scientist and full-stack developer in TopGlove, dealing with CCTV and image processing project.",
         tabs: [
           { title: "Education", content: Education },
-          { title: "UTeM", content: UTeM },
+          { title: "UTeM (Underdevelopment)", content: UTeM },
+          { title: "Coursera (Underdevelopment)", content: Coursera },
           { title: "Career", content: Career }
         ]
       },
       {
         title: "Skill & Project",
-        subtitle: "about me sub",
+        subtitle: "Underdevelopment",
         tabs: [
           { title: "Skill", content: Skill },
-          { title: "Project", content: Project }
+          { title: "Education Assignment", content: Assignment },
+          { title: "Personal Project", content: Project }
         ]
       },
-      { title: "Contact & Comments", subtitle: "about me sub" },
-      { title: "Blog & Other", subtitle: "about me sub" }
+      { title: "Contact & Comments", subtitle: "Underdevelopment" },
+      { title: "Blog & Other", subtitle: "Underdevelopment" }
     ],
     tabVmodel: 0,
     swipeDirection: "None"

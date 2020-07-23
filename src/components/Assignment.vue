@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <template v-for="project in data">
-      <projectCardItem label="Related Field" :project="project" :key="project"></projectCardItem>
+      <projectCardItem :project="project" :key="project"></projectCardItem>
     </template>
   </v-card>
 </template>
@@ -9,7 +9,7 @@
 <script>
 import ProjectCardItem from "./ProjectCardItem";
 export default {
-  name: "Project",
+  name: "Assignment",
   components: { ProjectCardItem },
   data: () => ({
     data: [
@@ -36,24 +36,9 @@ export default {
         systems:
           "Windows 10",
         hardwareAndTools:
-          "Laptop",
+          "-",
         softwareDevelopmentTools:
           "Visual Studio 2017"
-      },
-      {
-        title: "Portfolio",
-        course: "Web Application, Data Visualize, VueJs, Hosting and Server",
-        projectTitle:
-          "Learn Web Programing and Hosting with the development of my own Portfolio. ",
-        description:
-          "This portfolio is underdevelopment, and I found that I add too much element into it, it seems like a platform for me to organize my own thing instead use as a portfolio.",
-        programmingLanguage: "Vue",
-        systems:
-          "Windows 10, Vuejs",
-        hardwareAndTools:
-          "Laptop, Smart Phone",
-        softwareDevelopmentTools:
-          "Visual Studio Code, NPM, Vue CLI, "
       },
     ]
   })

@@ -61,10 +61,6 @@
           text: 'Cryptography and Linguistics research with data science techniques and applications, project focus on Liber Primus Cicada 3301 and Voynich manuscript',
           href: 'https://github.com/devilFUCKangel',
         },
-        {
-          text: 'Frequently Asked Questions',
-          href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
-        },
       ],
     }),
   }
