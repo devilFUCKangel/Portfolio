@@ -14,32 +14,69 @@ export default {
   data: () => ({
     data: [
       {
-        title: "Anjian GrowCastle",
-        course: "Game, Automation, Computer Vision",
-        projectTitle: "Automated Anjian Script for android game GrowCastle",
+        title: "Online Police Reporting System",
+        course: "Workshop 1",
+        projectTitle: "Online Police Reporting System",
         description:
-          "An automated AnJian script for android game named GrowCastle. Allow to afk, bypass bot check, auto skill and auto pick item.",
-        programmingLanguage: "Q",
-        systems: "Android, Android Emulator, Windows 10",
-        hardwareAndTools: "Android Phone, Laptop, USB",
+          "A system that help police store report data, share to all police station and analysis cases. This system lets residents to do police report without go to police station.",
+        programmingLanguage: "C++, SQL",
+        systems: "Windows 10, Relational Database Management System (MySQL)",
+        hardwareAndTools: "Localhost server on laptop",
         softwareDevelopmentTools:
-          "AnJian Desktop and Mobile (AnJianJingLing 按键精灵), MemuPlay, USB Debugging"
+          "QtCreator (Qt Quick 2), Mysql Workbench, Visual Studio"
       },
       {
-        title: "Sudoku Solver",
-        course: "Mathematics of Sudoku, Searching Algorithm",
+        title: "Auto Farming Robot",
+        course: "Workshop 2",
         projectTitle:
-          "Sudoku Solver with exhaustive search and rule",
+          "INTELLIGENT FARMING ROBOT PROTOTYPE USING IoT APPLICATION",
         description:
-          "This is sudoku solver with built-in sudoku game. Run only in terminal and everything start from zero. Objective of this project is to train programming skill.",
-        programmingLanguage: "C++",
+          "A robot with arm and camera that can auto plant and harvest crop. A farm used vertical farming method with the help of robot.",
+        programmingLanguage: "Python",
         systems:
-          "Windows 10",
+          "ev3dev Debian, System Management Bus, Google Cloud Platform, Remote Python Call and Windows 10 as central place",
         hardwareAndTools:
-          "-",
+          "Lego Mindstorm EV3, TETRIX, HiTechnic, Phone Camera, Laptop for RPyC administration",
         softwareDevelopmentTools:
-          "Visual Studio 2017"
+          "Visual Studio Code, OpenCV, Android IPWebCam, Google Cloud Vision API, Keras API Tensorflow"
       },
+      {
+        title: "Lipreading Model",
+        course: "Final Year Project",
+        projectTitle:
+          "REPLICATION OF LIPNET MODEL USING TENSORFLOW LIBRARY AND PYTHON",
+        description:
+          "A software that use a camera to perform lipreading to know what a person talking without input of sound. Research and review on LipNet model. Build a lipreading software to help people communicate in noisy environment. Build new dataset for train and test.",
+        programmingLanguage: "Python",
+        systems: "Ubuntu",
+        hardwareAndTools: "Laptop with Nvidia GEFORCE 940M, laptop's camera",
+        softwareDevelopmentTools:
+          "Visual Studio Code, OpenCV, NVIDIA CUDA, Keras API Tensorflow"
+      },
+      {
+        title: "EMPLOYEE ASSIGNATION FOR A PROJECT",
+        course: "EVOLUTIONARY COMPUTING",
+        projectTitle:
+          "EMPLOYEE ASSIGNATION FOR A PROJECT BY USING GENETIC ALGORITHM",
+        description:
+          "A software that use to achieve the best solution which pay out the minimum of salary and get back the maximum of employees’ efficiency. Design genetic algorithm.",
+        programmingLanguage: "C++",
+        systems: "Windows 10",
+        hardwareAndTools: "-",
+        softwareDevelopmentTools: "Visual Studio"
+      },
+      {
+        title: "Smartphone Inventory System",
+        course: "Object Orientated Programming",
+        projectTitle:
+          "Smartphone Inventory System",
+        description:
+          "A system to help calculate price, store record in database, and transaction running efficiently.",
+        programmingLanguage: "Java, SQL",
+        systems: "Windows 10, Relational Database Management System (Apache Derby)",
+        hardwareAndTools: "-",
+        softwareDevelopmentTools: "Eclipse, Apache Derby"
+      }
     ]
   })
 };
