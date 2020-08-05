@@ -25,23 +25,26 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### hosting note
-1. [AWS Elastic Beanstalk](http://env-portfolio.eba-hqy7qmxw.ap-southeast-1.elasticbeanstalk.com/)
+1. ~~[AWS Elastic Beanstalk](http://env-portfolio.eba-hqy7qmxw.ap-southeast-1.elasticbeanstalk.com/)~~
     - hard to debug
     - CLI hard to install and use
     - deploy setting confuse, tomcat instead of nodejs
     - upload and deploy
     - hard to manage on AWS web
+    - ***closed on 5Aug2020, AWS charge alot on billing***
 
-2. [AWS S3 static hosting](https://vuecliplugins3bucket.s3-ap-southeast-1.amazonaws.com/index.html)
+2. ~~[AWS S3 static hosting](https://vuecliplugins3bucket.s3-ap-southeast-1.amazonaws.com/index.html)~~
     - some settings problem on AWS S3's properties
     - official recommended vue-cli plugin for easy deploy
     - upload and deploy
+    - ***closed on 5Aug2020, AWS charge alot on billing***
 
-3. [AWS Amplify](https://master.d3cd60ujwjqht7.amplifyapp.com/)
+3. ~~[AWS Amplify](https://master.d3cd60ujwjqht7.amplifyapp.com/)~~
     - easy web interface to manage and deploy
     - push github and deploy
     - many choice (BitBucket, Gitlab, AWS CodeCmmit, wihout git)
     - backend API easy setup (haven't test)
+    - ***closed on 5Aug2020, AWS charge alot on billing***
 
 4. [Google Firebase](https://portfolio-nang.web.app/),[2](https://portfolio-nang.firebaseapp.com/)
     - easy to deploy
